@@ -1,0 +1,50 @@
+.app {
+   text-align: center;
+   background-color: rgba(0, 0, 0, 1);
+   display: flex;
+   flex-direction: column;
+   align-items: center
+}
+
+.app #database {
+   width: 150px;
+   height: 30px;
+   color: white;
+   text-align: left;
+   padding-left: 10px;
+   margin: 16px 10px;
+}
+
+.app #input {
+   width: 150px;
+   height: 30px;
+   border-radius: 5px;
+   text-align: left;
+   padding-left: 8px;
+   border: none;
+   font-style: "微软雅黑";
+   font-size: 12px;
+   margin: 14px 10px;
+}
+
+.app .button {
+   width: 150px;
+   height: 30px;
+   border-radius: 5px;
+   margin-top: 10px;
+   text-align: center;
+   font-style: "微软雅黑";
+   font-size: 12px;
+   padding-top: 9px;
+   color: white;
+   cursor: pointer;
+   margin: 10px 10px;
+}
+
+.app #compute {
+   background-color: #03cdd4;
+}
+
+.app #add {
+   background-color: #6c6fff;
+}
